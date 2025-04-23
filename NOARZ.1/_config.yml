@@ -1,0 +1,5 @@
+# ... other config settings ...
+
+# Include assets directory
+include:
+  - assets

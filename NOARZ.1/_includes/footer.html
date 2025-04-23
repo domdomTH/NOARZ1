@@ -1,0 +1,29 @@
+<footer class="cyber-footer">
+    <div class="cyber-grid"></div>
+    <div class="container">
+        <div class="cyber-footer-content">
+            <div class="cyber-footer-section">
+                <h3 class="cyber-heading">{{ site.title }}</h3>
+                <p class="cyber-text">{{ site.description }}</p>
+            </div>
+            <div class="cyber-footer-section">
+                <h3 class="cyber-heading">Connect</h3>
+                <div class="cyber-social">
+                    <a href="#" class="cyber-social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="cyber-social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="cyber-social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="cyber-footer-section">
+                <h3 class="cyber-heading">Newsletter</h3>
+                <form class="cyber-form">
+                    <input type="email" placeholder="Your email" class="cyber-input">
+                    <button type="submit" class="neon-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="cyber-footer-bottom">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
